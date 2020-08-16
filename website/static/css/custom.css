@@ -1,0 +1,92 @@
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+.fixedHeaderContainer {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dee5ea;
+}
+
+.fixedHeaderContainer a {
+  color: #000000;
+}
+
+.navigationSlider .slidingNav ul {
+  background-color: transparent;
+}
+
+.navigationSlider .slidingNav ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navigationSlider .slidingNav ul li > a {
+  background-color: transparent;
+  color: #000000;
+  font-weight: 500;
+}
+
+.navigationSlider .slidingNav ul li > a:hover {
+  background-color: transparent;
+  color: #6d267e;
+}
+
+.navigationSlider .slidingNav ul li.siteNavGroupActive > a {
+  background-color: transparent;
+  color: #6d267e;
+}
+
+blockquote {
+  background-color: rgba(242, 126, 143, 0.1);
+  border-left: 8px solid #f27e8f;
+  padding: 15px 30px 15px 15px;
+}
+
+.pull-quote {
+  background-color: #eaecec;
+  margin: 20px;
+  padding: 20px;
+  width: 40%;
+  min-width: 300px;
+}
+
+.pull-quote-full-width {
+    width: 90%;
+    margin: 20px 5%;
+    max-width: 90%;
+    min-width: unset;
+  }
+
+.float-left {
+  float: left;
+  margin-left: 0;
+}
+
+.float-right {
+  float: right;
+  margin-right: 0;
+}
+
+@media only all and (max-width: 1200px) {
+  .pull-quote {
+    width: 90%;
+    margin: 20px 5%;
+    max-width: 90%;
+    min-width: unset;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}

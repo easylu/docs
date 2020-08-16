@@ -1,0 +1,11 @@
+{
+  "docs": {
+    "Deploying Trotto": [
+      "deploy/fully-managed",
+      "deploy/deploy-to-heroku",
+      "deploy/deploy-with-docker",
+      "deploy/app-yml-config-file",
+      "deploy/creating-oauth-credentials"
+    ]
+  }
+}
