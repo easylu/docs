@@ -20,7 +20,7 @@ If you have any trouble, don't hesitate to reach out to us at [help@trot.to](mai
 ## app.yml
 
 The `app.yml` file is the main file used to configure Trotto. See the documentation for
-`app.yml` [here](/docs/deploy/app.yml).
+`app.yml` [here](/docs/deploy/app-yml-config-file).
 
 ## client_secrets.json
 
