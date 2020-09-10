@@ -37,3 +37,30 @@ Once you've set the `FLASK_SECRET` and `GOOGLE_OAUTH_CLIENT_JSON` config vars on
 app", and your new Trotto instance will deploy and be ready for use.
 
 If you have any trouble, don't hesitate to reach out to us at [help@trot.to](mailto:help@trot.to).
+
+## Forking and automating deployment
+
+You can fork the Trotto repo and set up your own deployment process in Heroku:
+
+1. Create a public fork, or a private mirror as described below
+2. Under the **Deploy** tab of the Heroku dashboard for your Trotto instance, connect the app to your fork/mirror
+   and set up automatic deploys as described
+   in [Heroku's docs](https://devcenter.heroku.com/articles/github-integration)
+3. (optional) If you want to add additional config to your Trotto instance (such as a list of admins), create
+   an `app.yml` config file  and set the base64-encoded `app.yml` file as the `TROTTO_CONFIG` environment variable as
+   described in the [`app.yml` docs](/docs/deploy/app-yml-config-file)
+
+### Creating a private repo
+
+To set up a private repo mirroring the `trotto/go-links` repo, create a private repo (without any initial files)
+and run the below git commands, substituting your repo in the `git remote add origin ...` command.
+
+```shell script
+git clone git@github.com:trotto/go-links.git
+cd go-links
+git remote rename origin upstream
+git remote add origin git@github.com:YOUR_ORG/YOUR_REPO.git
+git push origin
+```
+
+Your new repo will now mirror the `master` branch of `trotto/go-links`.
