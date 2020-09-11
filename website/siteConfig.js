@@ -13,6 +13,7 @@ const users = [];
 
 const siteConfig = {
   title: 'Trotto go links',
+  url: 'https://www.trot.to/docs',
   baseUrl: '/', // Base URL for your project */
   // Used for publishing and more
   projectName: 'trotto-docs-and-blog',
@@ -73,8 +74,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/snout2.png',
-  twitterImage: 'img/snout2.png',
+  ogImage: '../img/snout2.png',
+  twitterImage: '../img/snout2.png',
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
