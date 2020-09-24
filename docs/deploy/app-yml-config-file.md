@@ -35,6 +35,46 @@ should be an empty database. When the app starts up, it will update the database
 
 An array of the email addresses of users who should have admin privileges for your Trotto instance.
 
+### `layout` (optional)
+
+The `layout` config can be used to customize the branding of the Trotto app as well as the layout of the
+header and footer. A sample `layout` config:
+
+```yaml
+layout:
+  palette:
+    primary: "#4285f4"
+    secondary: "#f4b400"
+    success: "#0f9d58"
+    error: "#db4437"
+  page:
+    title: "Acme Go Links"
+    favicon: "https://www.example.com/favicon.png"
+  header:
+    title: "Acme Go Links"
+    logo:
+      url: "https://www.example.com/assets/logo.png"
+      css:
+        height: "40px"
+    links:
+      - directory
+      - text: "Go Links Guide"
+        url: "https://intranet.example.com/go-links"
+  footer:
+    showSourceLink: false
+    links:
+      - text: "Help Desk"
+        url: "https://helpdesk.example.com"
+      - text: "Feedback"
+        url: "https://helpdesk.example.com/go-links-feedback"
+```
+
+* Most of the configuration is optional, and whatever config is provided will be merged into the default configuration.
+  If `palette` is provided, the `primary` and `secondary` keys are required.
+* In the `layout.header.links` array, the strings `directory` and `howItWorks` can be used to include the default
+  `Directory` and `How It Works` links. The sign in/sign out link will always be included as the last link.
+* The `layout.footer.showSourceLink` key can be used to include/exclude the icon linking to Trotto's GitHub repository.
+
 ## Location
 
 The Trotto app can read the `app.yml` config either from `config/app.yml` or from a `TROTTO_CONFIG` environment variable

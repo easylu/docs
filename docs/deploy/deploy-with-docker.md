@@ -9,9 +9,9 @@ consists of two files:
 - `app.yml`, containing the main config
 - `client_secrets.json`, a Google OAuth credentials file
 
-These files are described below. Once you've put these files in the root of your clone of the repo, run the `docker build`
-command to build a Trotto image containing your config. The startup command for the container will
-run Trotto at `0.0.0.0:8000` inside a container.
+These files are described below. Once you've put these files in `server/src/config/` in your clone of the repo, run
+the `docker build` command to build a Trotto image containing your config. The startup command for the container will
+run Trotto inside a container at `0.0.0.0:8000` or, if the `PORT` env var is set, at `0.0.0.0:${PORT}`.
 
 The startup command will also update the Postgres database you use with Trotto if it's new or out-of-date.
 
