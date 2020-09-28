@@ -21,6 +21,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: 'deploy/deploy-to-heroku', label: 'Deploy' },
+    { doc: 'use/creating-a-go-link', label: 'Use' },
     { blog: true, label: 'Blog' },
     { href: 'https://github.com/trotto', label: 'GitHub' }
   ],
