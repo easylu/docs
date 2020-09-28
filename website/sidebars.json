@@ -2,11 +2,24 @@
   "docs": {
     "Deploying Trotto": [
       "deploy/fully-managed",
+      "deploy/supporting-the-go-hostname",
       "deploy/deploy-to-heroku",
       "deploy/deploy-with-docker",
       "deploy/app-yml-config-file",
       "deploy/creating-oauth-credentials",
       "deploy/custom-branding"
+    ],
+    "Using Trotto": [
+      "use/creating-a-go-link",
+      "use/using-a-go-link",
+      "use/editing-a-go-link",
+      "use/deleting-a-go-link",
+      "use/go-links-directory",
+      "use/programmatic-go-links",
+      "use/quicksearches",
+      "use/go-link-owners",
+      "use/administrator-role",
+      "use/faq"
     ]
   }
 }
