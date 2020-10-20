@@ -7,7 +7,9 @@
       "deploy/deploy-with-docker",
       "deploy/app-yml-config-file",
       "deploy/creating-oauth-credentials",
-      "deploy/custom-branding"
+      "deploy/custom-branding",
+      "deploy/set-up-okta",
+      "deploy/set-up-onelogin"
     ],
     "Using Trotto": [
       "use/creating-a-go-link",
