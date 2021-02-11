@@ -15,7 +15,13 @@
 }
 
 .navigationSlider .slidingNav ul {
-  background-color: transparent;
+  background-color: white;
+}
+
+@media only screen and (max-width: 735px) {
+  .navigationSlider .slidingNav ul {
+    border-bottom: 1px solid #dee5ea;
+  }
 }
 
 .navigationSlider .slidingNav ul li {
