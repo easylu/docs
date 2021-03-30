@@ -20,6 +20,7 @@ immediately:
 
 * [Chrome extension](https://chrome.google.com/webstore/detail/trotto-go-links/nkeoojidblilnkcbbmfhaeebndapehjk)
 * [Firefox extension](https://addons.mozilla.org/firefox/addon/trotto-go-links)
+* [Safari extension](https://apps.apple.com/us/app/trotto-go-links-for-safari/id1550901097)
 
 If you're self-hosting Trotto, deploying your own copy of the extension is simple. Check out the extension repo's
 [README](https://github.com/trotto/browser-extension).
